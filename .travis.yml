@@ -1,8 +1,11 @@
 language: php
+
+# Versiones de PHP contra las cuales quieres probar tu aplicación
 php:
-  -7.2.34
-  - '5.4'
-  - '5.6'
-  - '7.0'
-  - hhvm # on Trusty only
-  - nightly
+  - 7.4
+  - 8.0
+  - 8.1
+
+# Instala las dependencias necesarias para el proyecto
+install:
+  - composer install --prefer-source --no-interaction
