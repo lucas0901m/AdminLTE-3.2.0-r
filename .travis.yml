@@ -2,10 +2,10 @@ language: php
 
 # Versiones de PHP contra las cuales quieres probar tu aplicación
 php:
+  - 7.2
   - 7.4
-  - 8.0
   - 8.1
 
 # Instala las dependencias necesarias para el proyecto
-install:
-  - composer install --prefer-source --no-interaction
+before_script:
+  - composer install
