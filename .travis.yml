@@ -8,4 +8,7 @@ php:
 
 # Instala las dependencias necesarias para el proyecto
 before_script:
-  - composer install
+  - composer install --no-interaction
+
+script:
+  - composer phpcs-autp-check-project
