@@ -13,7 +13,7 @@ loginForm.addEventListener('submit', (event) => {
     if (username === 'admin' && password === 'password123') {
         // Login successful (redirect to another page, etc.)
         alert('Login successful!');
-        window.location.href = 'index.html'; // Replace with the URL of the destination page
+        window.location.href = 'imc.php'; // Replace with the URL of the destination page
     } else {
         errorMessage.textContent = 'Invalid username or password.';
     }
