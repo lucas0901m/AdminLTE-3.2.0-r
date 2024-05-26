@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Calculadora de IMC 2022</title>
+    <title>Calculadora de IMC 2024</title>
     <style>
         body {
             font-family: Arial, sans-serif;
